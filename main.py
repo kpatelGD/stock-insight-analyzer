@@ -1,29 +1,38 @@
-import yfinance as yf
-import matplotlib.pyplot as plt
+from src.fetch_data import get_stock_history, get_stock_info
+from src.indicators import add_indicators, calculate_summary_metrics
+from src.analyzer import generate_recommendation
+from src.visualizer import plot_price_trend
+from src.utils import normalize_ticker, print_summary, print_recommendation, ensure_output_dirs
 
-# Get user input
-ticker = input("Enter stock ticker (e.g., AAPL): ")
 
-# Fetch stock data
-stock = yf.Ticker(ticker)
-data = stock.history(period="1y")
+def main() -> None:
+    ensure_output_dirs()
 
-# Check if data exists
-if data.empty:
-    print("Invalid ticker or no data found.")
-    exit()
+    raw_ticker = input("Enter stock ticker (e.g., AAPL): ").strip()
+    ticker = normalize_ticker(raw_ticker)
 
-# Print first few rows
-print("\nStock Data Preview:")
-print(data.head())
+    if not ticker:
+        print("Error: ticker cannot be empty.")
+        return
 
-# Plot closing price
-plt.figure(figsize=(10, 5))
-plt.plot(data['Close'], label='Closing Price')
+    try:
+        history = get_stock_history(ticker, period="1y")
+        info = get_stock_info(ticker)
+        history = add_indicators(history)
+        metrics = calculate_summary_metrics(history)
+        recommendation = generate_recommendation(metrics)
 
-plt.title(f"{ticker} Stock Price (1 Year)")
-plt.xlabel("Date")
-plt.ylabel("Price")
-plt.legend()
+        print_summary(ticker, info, metrics)
+        print_recommendation(recommendation)
 
-plt.show()
+        chart_path = plot_price_trend(history, ticker)
+        print(f"\nChart saved to: {chart_path}")
+
+    except ValueError as exc:
+        print(f"Error: {exc}")
+    except Exception as exc:
+        print(f"Unexpected error: {exc}")
+
+
+if __name__ == "__main__":
+    main()
