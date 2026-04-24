@@ -1,0 +1,39 @@
+==================================================
+       STOCK INSIGHT ANALYZER - REPORT
+==================================================
+Generated: 2026-04-24 16:47
+
+Ticker:   RISKY
+Company:  Risky Ventures Ltd.
+Sector:   Consumer Cyclical
+Industry: Specialty Retail
+
+----- METRICS -----
+Current Price:          $102.48
+52-Week High:           $211.87
+52-Week Low:            $101.01
+Average Volume:         20,249,201
+20-Day Moving Average:  $109.47
+50-Day Moving Average:  $107.34
+Annualized Volatility:  52.85%
+1-Month Return:         -0.15%
+6-Month Return:         -46.90%
+RSI (14):               34.09
+
+----- RECOMMENDATION -----
+Label:       Use caution
+Signal Score: -3
+Risk Score:   8/10
+
+Summary:
+  This stock currently shows weaker trend conditions or higher risk based on the project rules, so a beginner investor should be careful.
+
+Reasons:
+  - Current price is below the 50-day moving average.
+  - 20-day moving average is above the 50-day moving average, showing positive short-term momentum.
+  - Six-month performance is negative.
+  - Volatility is high, which increases risk.
+  - RSI is in a balanced range.
+
+Disclaimer: This is an educational tool, not financial advice.
+==================================================

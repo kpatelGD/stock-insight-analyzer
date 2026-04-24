@@ -1,0 +1,39 @@
+==================================================
+       STOCK INSIGHT ANALYZER - REPORT
+==================================================
+Generated: 2026-04-24 16:47
+
+Ticker:   TEST
+Company:  Test Corp
+Sector:   Technology
+Industry: Software
+
+----- METRICS -----
+Current Price:          $167.74
+52-Week High:           $174.29
+52-Week Low:            $128.63
+Average Volume:         60,076,894
+20-Day Moving Average:  $166.67
+50-Day Moving Average:  $165.08
+Annualized Volatility:  23.13%
+1-Month Return:         1.23%
+6-Month Return:         18.03%
+RSI (14):               51.34
+
+----- RECOMMENDATION -----
+Label:       Better suited for long-term investing
+Signal Score: 9
+Risk Score:   3/10
+
+Summary:
+  This stock shows a relatively healthy trend with supportive momentum and manageable risk levels based on the indicators used in this project.
+
+Reasons:
+  - Current price is above the 50-day moving average.
+  - 20-day moving average is above the 50-day moving average, showing positive short-term momentum.
+  - Six-month performance is strong.
+  - Volatility is relatively moderate.
+  - RSI is in a balanced range.
+
+Disclaimer: This is an educational tool, not financial advice.
+==================================================
