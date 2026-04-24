@@ -1,0 +1,39 @@
+==================================================
+       STOCK INSIGHT ANALYZER - REPORT
+==================================================
+Generated: 2026-04-24 12:40
+
+Ticker:   TSLA
+Company:  TSLA
+Sector:   N/A
+Industry: N/A
+
+----- METRICS -----
+Current Price:          $375.24
+52-Week High:           $489.88
+52-Week Low:            $259.51
+Average Volume:         84,329,261
+20-Day Moving Average:  $369.07
+50-Day Moving Average:  $387.06
+Annualized Volatility:  48.27%
+1-Month Return:         0.84%
+6-Month Return:         -16.42%
+RSI (14):               60.82
+
+----- RECOMMENDATION -----
+Label:       Use caution
+Signal Score: -6
+Risk Score:   7/10
+
+Summary:
+  This stock currently shows weaker trend conditions or higher risk based on the project rules, so a beginner investor should be careful.
+
+Reasons:
+  - Current price is below the 50-day moving average.
+  - 20-day moving average is not above the 50-day moving average.
+  - Six-month performance is negative.
+  - Volatility is high, which increases risk.
+  - RSI is in a balanced range.
+
+Disclaimer: This is an educational tool, not financial advice.
+==================================================

@@ -1,0 +1,39 @@
+==================================================
+       STOCK INSIGHT ANALYZER - REPORT
+==================================================
+Generated: 2026-04-24 12:34
+
+Ticker:   AAPL
+Company:  AAPL
+Sector:   N/A
+Industry: N/A
+
+----- METRICS -----
+Current Price:          $270.09
+52-Week High:           $286.19
+52-Week Low:            $195.27
+Average Volume:         49,936,157
+20-Day Moving Average:  $261.35
+50-Day Moving Average:  $260.13
+Annualized Volatility:  23.38%
+1-Month Return:         6.80%
+6-Month Return:         4.05%
+RSI (14):               60.85
+
+----- RECOMMENDATION -----
+Label:       Better suited for long-term investing
+Signal Score: 8
+Risk Score:   3/10
+
+Summary:
+  This stock shows a relatively healthy trend with supportive momentum and manageable risk levels based on the indicators used in this project.
+
+Reasons:
+  - Current price is above the 50-day moving average.
+  - 20-day moving average is above the 50-day moving average, showing positive short-term momentum.
+  - Six-month performance is positive.
+  - Volatility is relatively moderate.
+  - RSI is in a balanced range.
+
+Disclaimer: This is an educational tool, not financial advice.
+==================================================
